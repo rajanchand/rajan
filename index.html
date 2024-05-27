@@ -609,16 +609,7 @@
    </div>
  </section> 
 	  
-<div id="result"></div>
-<script>
-  function getIP(json) {
-    document.getElementById("result").innerHTML = "Your IP address is " + json.ip;
-  }
- 
-  var script = document.createElement('script');
-  script.src = "https://api.ipify.org?format=jsonp&callback=getIP";
-  document.body.appendChild(script);
-</script>
+<div class="findiptitle">Your Information</div><div id="findipwidget"></div><div class="findiplink" id="findipurl">Powered by <a href="http://www.find-ip.net/" target="_blank">Find-IP.net</a></div><script defer src="https://api.find-ip.net/widget.js?width=240&"></script>
 
     <footer class="ftco-footer ftco-section">
 		<div class="container">
